@@ -1,4 +1,4 @@
-package org.example.taskmanagementrestapi.Repository;
+package org.example.taskmanagementrestapi.repository;
 
 import org.example.taskmanagementrestapi.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
