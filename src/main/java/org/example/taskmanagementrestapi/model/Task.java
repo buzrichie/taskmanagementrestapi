@@ -1,6 +1,8 @@
 package org.example.taskmanagementrestapi.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import org.springframework.stereotype.Component;
 
@@ -8,10 +10,9 @@ import org.springframework.stereotype.Component;
 @Entity
 public class Task {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     private String title;
-
     private String description;
     private String status;
 
