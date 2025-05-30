@@ -1,0 +1,25 @@
+# Ignore the IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore the build directories (compiled code)
+
+
+# Ignore local environment files (if using them for local development)
+.env
+.env.local
+.env.dev
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore OS-specific files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore Maven or Gradle wrapper jars (optional)
+mvnw
+mvnw.cmd
+gradlew
+gradlew.bat
